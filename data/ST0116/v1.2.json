@@ -1,0 +1,431 @@
+{
+  "schemaVersion": 1,
+  "standard": {
+    "reference": "ST0116",
+    "title": "Software developer",
+    "level": 4,
+    "standardVersion": "1.2",
+    "assessmentPlanVersion": "ST0116/v1.2 (November 2025)",
+    "publisher": "Skills England",
+    "licence": "Open Government Licence v3.0",
+    "notes": "KSB and descriptor text is copied from the published standard and assessment plan. Descriptor identifiers (such as M1-P01) are assigned by this repository and do not appear in the plan."
+  },
+  "ksbs": {
+    "K1": "all stages of the software development life-cycle (what each stage contains, including the inputs and outputs)",
+    "K2": "roles and responsibilities within the software development lifecycle (who is responsible for what)",
+    "K3": "the roles and responsibilities of the project life-cycle within your organisation, and your role",
+    "K4": "how best to communicate using the different communication methods and how to adapt appropriately to different audiences",
+    "K5": "the similarities and differences between different software development methodologies, such as agile and waterfall.",
+    "K6": "how teams work effectively to produce software and how to contribute appropriately",
+    "K7": "software design approaches and patterns, to identify reusable solutions to commonly occurring problems",
+    "K8": "organisational policies and procedures relating to the tasks being undertaken, and when to follow them. For example the storage and treatment of GDPR sensitive data.",
+    "K9": "algorithms, logic and data structures relevant to software development for example:- arrays- stacks- queues- linked lists- trees- graphs- hash tables- sorting algorithms- searching algorithms- critical sections and race conditions",
+    "K10": "principles and uses of relational and non-relational databases",
+    "K11": "software designs and functional or technical specifications",
+    "K12": "software testing frameworks and methodologies",
+    "S1": "create logical and maintainable code",
+    "S2": "develop effective user interfaces",
+    "S3": "link code to data sets",
+    "S4": "test code and analyse results to correct errors found using unit testing",
+    "S5": "conduct a range of test types, such as Integration, System, User Acceptance, Non-Functional, Performance and Security testing.",
+    "S6": "identify and create test scenarios",
+    "S7": "apply structured techniques to problem solving, debug code and understand the structure of programmes in order to identify and resolve issues",
+    "S8": "create simple software designs to effectively communicate understanding of the program",
+    "S9": "create analysis artefacts, such as use cases and/or user stories",
+    "S10": "build, manage and deploy code into the relevant environment",
+    "S11": "apply an appropriate software development approach according to the relevant paradigm (for example object oriented, event driven or procedural)",
+    "S12": "follow software designs and functional or technical specifications",
+    "S13": "follow testing frameworks and methodologies",
+    "S14": "follow company, team or client approaches to continuous integration, version and source control",
+    "S15": "communicate software solutions and ideas to technical and non-technical stakeholders",
+    "S16": "apply algorithms, logic and data structures",
+    "S17": "interpret and implement a given design whist remaining compliant with security and maintainability requirements",
+    "B1": "Works independently and takes responsibility. For example, has a disciplined and responsible approach to risk and stays motivated and committed when facing challenges",
+    "B2": "Applies logical thinking. For example, uses clear and valid reasoning when making decisions related to undertaking work instructions",
+    "B3": "Maintains a productive, professional and secure working environment",
+    "B4": "Works collaboratively with a wide range of people in different roles, internally and externally, with a positive attitude to inclusion & diversity",
+    "B5": "Acts with integrity with respect to ethical, legal and regulatory ensuring the protection of personal data, safety and security.",
+    "B6": "Shows initiative and takes responsibility for solving problems within their own remit, being resourceful when faced with a problem to solve.",
+    "B7": "Communicates effectively in a variety of situations to both a technical and non-technical audience.",
+    "B8": "Shows curiosity to the business context in which the solution will be used, displaying an inquisitive approach to solving the problem. This includes the curiosity to explore new opportunities, techniques and the tenacity to improve methods and maximise performance of the solution and creativity in their approach to solutions.",
+    "B9": "Committed to continued professional development."
+  },
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Work-based project with questioning",
+      "format": "Project report followed by 60 minutes of questioning, minimum 12 questions",
+      "ksbs": [
+        "K2",
+        "K6",
+        "K9",
+        "K11",
+        "S1",
+        "S4",
+        "S6",
+        "S7",
+        "S10",
+        "S11",
+        "S12",
+        "S16",
+        "B2",
+        "B3"
+      ],
+      "descriptors": [
+        {
+          "id": "M1-P01",
+          "grade": "pass",
+          "ksbs": [
+            "K2"
+          ],
+          "text": "Explains the roles and responsibilities of all people working within the software development lifecycle, and how they relate to the project (K2)"
+        },
+        {
+          "id": "M1-P02",
+          "grade": "pass",
+          "ksbs": [
+            "K6"
+          ],
+          "text": "Outlines how teams work effectively to produce software and how to contribute appropriately (K6)"
+        },
+        {
+          "id": "M1-P03",
+          "grade": "pass",
+          "ksbs": [
+            "K9",
+            "S16"
+          ],
+          "text": "Outlines and applies the rationale and use of algorithms, logic and data structures. (K9, S16)"
+        },
+        {
+          "id": "M1-P04",
+          "grade": "pass",
+          "ksbs": [
+            "K11",
+            "S11",
+            "S12"
+          ],
+          "text": "Reviews methods of software design with reference to functional/technical specifications and applies a justified approach to software development (K11, S11, S12)"
+        },
+        {
+          "id": "M1-P05",
+          "grade": "pass",
+          "ksbs": [
+            "S1"
+          ],
+          "text": "Creates logical and maintainable code to deliver project outcomes, explaining their choice of approach. (S1)"
+        },
+        {
+          "id": "M1-P06",
+          "grade": "pass",
+          "ksbs": [
+            "S4"
+          ],
+          "text": "Analyses unit testing results and reviews the outcomes correcting errors. (S4)"
+        },
+        {
+          "id": "M1-P07",
+          "grade": "pass",
+          "ksbs": [
+            "S6"
+          ],
+          "text": "Identifies and creates test scenarios which satisfy the project specification (S6)"
+        },
+        {
+          "id": "M1-P08",
+          "grade": "pass",
+          "ksbs": [
+            "S7"
+          ],
+          "text": "Applies structured techniques to problem solving to identify and resolve issues and debug basic flaws in code (S7)"
+        },
+        {
+          "id": "M1-P09",
+          "grade": "pass",
+          "ksbs": [
+            "S10"
+          ],
+          "text": "Reviews and justifies their contribution to building, managing and deploying code into the relevant environment in accordance with the project specification (S10)"
+        },
+        {
+          "id": "M1-P10",
+          "grade": "pass",
+          "ksbs": [
+            "B2"
+          ],
+          "text": "Establishes a logical thinking approach to areas of work which require valid reasoning and/or justified decision making (B2)"
+        },
+        {
+          "id": "M1-P11",
+          "grade": "pass",
+          "ksbs": [
+            "B3"
+          ],
+          "text": "Describes how they have maintained a productive, professional and secure working environment throughout the project activity (B3)"
+        },
+        {
+          "id": "M1-D01",
+          "grade": "distinction",
+          "ksbs": [
+            "K6"
+          ],
+          "text": "Compare and contrast the requirements of a software development team, and how they would ensure that each member (including themselves) were able to make a contribution (K6)"
+        },
+        {
+          "id": "M1-D02",
+          "grade": "distinction",
+          "ksbs": [
+            "S1"
+          ],
+          "text": "Evaluates the advantages and disadvantages of different coding and programming techniques to create logical and maintainable code (S1)"
+        },
+        {
+          "id": "M1-D03",
+          "grade": "distinction",
+          "ksbs": [
+            "S7"
+          ],
+          "text": "Analyses the software to identify and debug complex issues using a fix that provides a permanent solution (S7)"
+        },
+        {
+          "id": "M1-D04",
+          "grade": "distinction",
+          "ksbs": [
+            "S11"
+          ],
+          "text": "Evaluates different software development approaches in order justifying the best alignment with a given paradigm. (for example, object oriented, event driven or procedural) (S11)"
+        }
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "Professional discussion underpinned by portfolio",
+      "format": "60 minutes, minimum 12 open questions; portfolio not assessed",
+      "ksbs": [
+        "K1",
+        "K3",
+        "K4",
+        "K5",
+        "K7",
+        "K8",
+        "K10",
+        "K12",
+        "S2",
+        "S3",
+        "S5",
+        "S8",
+        "S9",
+        "S13",
+        "S14",
+        "S15",
+        "S17",
+        "B1",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9"
+      ],
+      "descriptors": [
+        {
+          "id": "M2-P01",
+          "grade": "pass",
+          "ksbs": [
+            "K1"
+          ],
+          "text": "Describes all stages of the software development lifecycle (K1)"
+        },
+        {
+          "id": "M2-P02",
+          "grade": "pass",
+          "ksbs": [
+            "K3"
+          ],
+          "text": "Describes the roles and responsibilities of the project lifecycle within their organisation, and their role (K3)"
+        },
+        {
+          "id": "M2-P03",
+          "grade": "pass",
+          "ksbs": [
+            "K4",
+            "S15"
+          ],
+          "text": "Describes methods of communicating with all stakeholders that is determined by the audience and/or their level of technical knowledge. (K4, S15)"
+        },
+        {
+          "id": "M2-P04",
+          "grade": "pass",
+          "ksbs": [
+            "K5"
+          ],
+          "text": "Describes the similarities and differences between different software development methodologies, such as agile and waterfall (K5)"
+        },
+        {
+          "id": "M2-P05",
+          "grade": "pass",
+          "ksbs": [
+            "K7"
+          ],
+          "text": "Suggests and applies different software design approaches and patterns, to identify reusable solutions to commonly occurring problems (include Bespoke or off-the-shelf) (K7)"
+        },
+        {
+          "id": "M2-P06",
+          "grade": "pass",
+          "ksbs": [
+            "K8",
+            "S14"
+          ],
+          "text": "Explains the relevance of organisational policies and procedures relating to the tasks being undertaken, and when to follow them including how they have followed company, team or client approaches to continuous integration, version, and source control (K8 S14)"
+        },
+        {
+          "id": "M2-P07",
+          "grade": "pass",
+          "ksbs": [
+            "K10"
+          ],
+          "text": "Applies the principles and uses of relational and non-relational databases to software development tasks (K10)"
+        },
+        {
+          "id": "M2-P08",
+          "grade": "pass",
+          "ksbs": [
+            "K12"
+          ],
+          "text": "Describes basic software testing frameworks and methodologies (K12)"
+        },
+        {
+          "id": "M2-P09",
+          "grade": "pass",
+          "ksbs": [
+            "S2"
+          ],
+          "text": "Explains, their own approach to development of user interfaces (S2)"
+        },
+        {
+          "id": "M2-P10",
+          "grade": "pass",
+          "ksbs": [
+            "S3"
+          ],
+          "text": "Explains, how they have linked code to data sets (S3)"
+        },
+        {
+          "id": "M2-P11",
+          "grade": "pass",
+          "ksbs": [
+            "S5",
+            "S13"
+          ],
+          "text": "Illustrates how to conduct test types, such as Integration, System, User Acceptance, Non-Functional, Performance and Security testing including how they have followed testing frameworks and methodologies (S5, S13)"
+        },
+        {
+          "id": "M2-P12",
+          "grade": "pass",
+          "ksbs": [
+            "S8"
+          ],
+          "text": "Creates simple software designs to communicate understanding of the programme to stakeholders and users of the programme (S8)"
+        },
+        {
+          "id": "M2-P13",
+          "grade": "pass",
+          "ksbs": [
+            "S9"
+          ],
+          "text": "Creates analysis artefacts, such as use cases and/or user stories to enable effective delivery of software activities (S9)"
+        },
+        {
+          "id": "M2-P14",
+          "grade": "pass",
+          "ksbs": [
+            "S17"
+          ],
+          "text": "Explains, how they have interpreted and implemented a given design whilst remaining compliant with security and maintainability requirements (S17)"
+        },
+        {
+          "id": "M2-P15",
+          "grade": "pass",
+          "ksbs": [
+            "B1"
+          ],
+          "text": "Describes, how they have operated independently to complete tasks to given deadlines which reflect the level of responsibility assigned to them by the organisation. (B1)"
+        },
+        {
+          "id": "M2-P16",
+          "grade": "pass",
+          "ksbs": [
+            "B4"
+          ],
+          "text": "Illustrates how they have worked collaboratively with people in different roles, internally and externally, which show a positive attitude to inclusion & diversity. (B4)"
+        },
+        {
+          "id": "M2-P17",
+          "grade": "pass",
+          "ksbs": [
+            "B5"
+          ],
+          "text": "Explains how they have established an approach in the workplace which reflects integrity with respect to ethical, legal, and regulatory matters and ensures the protection of personal data, safety and security. (B5)"
+        },
+        {
+          "id": "M2-P18",
+          "grade": "pass",
+          "ksbs": [
+            "B6"
+          ],
+          "text": "Illustrates their approach to meeting unexpected minor changes at work and outlines their approach to delivering within their remit using their initiative. (B6)"
+        },
+        {
+          "id": "M2-P19",
+          "grade": "pass",
+          "ksbs": [
+            "B7"
+          ],
+          "text": "Explains how they have communicated effectively in a variety of situations to both a technical and non-technical audience. (B7)"
+        },
+        {
+          "id": "M2-P20",
+          "grade": "pass",
+          "ksbs": [
+            "B8"
+          ],
+          "text": "Illustrates how they have responded to the business context with curiosity to explore new opportunities and techniques with tenacity to improve solution performance, establishing an approach to methods and solutions which reflects a determination to succeed (B8)"
+        },
+        {
+          "id": "M2-P21",
+          "grade": "pass",
+          "ksbs": [
+            "B9"
+          ],
+          "text": "Explains how they reflect on their continued professional development and act independently to seek out new opportunities (B9)"
+        },
+        {
+          "id": "M2-D01",
+          "grade": "distinction",
+          "ksbs": [
+            "K4",
+            "S15",
+            "B7"
+          ],
+          "text": "Compares and contrasts the different types of communication used for technical and non-technical audiences and the benefits of these types of communication methods (K4, S15, B7)"
+        },
+        {
+          "id": "M2-D02",
+          "grade": "distinction",
+          "ksbs": [
+            "K7"
+          ],
+          "text": "Evaluates and recommends approaches to using reusable solutions to common problems. (K7)"
+        },
+        {
+          "id": "M2-D03",
+          "grade": "distinction",
+          "ksbs": [
+            "K12"
+          ],
+          "text": "Evaluates the use of various software testing frameworks and methodologies and justifies their choice. (K12)"
+        }
+      ]
+    }
+  ]
+}
