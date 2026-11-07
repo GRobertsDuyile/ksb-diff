@@ -17,11 +17,19 @@ Apprenticeship standards and their assessment plans are revised over time, and r
 
 | Standard | Version | Assessment plan | Checked against source |
 |---|---|---|---|
-| ST0116 Software developer, Level 4 | 1.2 | ST0116/v1.2 (November 2025) | Not yet |
+| ST0116 Software developer, Level 4 | 1.2 | [ST0116/v1.2](https://skillsengland.education.gov.uk/media/fwedv2h3/st0116-software-developer-level-4-ap-for-publication-17112025.pdf) | Yes, 7 November 2026 |
 
 Each file holds the standard's reference, title, level and versions; every KSB with its text; and every assessment method with its grading descriptors, the KSBs each descriptor covers, and the descriptor text.
 
+"Checked against source" means every KSB was compared with the published standard page, and every descriptor and mapping with the published assessment plan, character for character.
+
 The comparison tool is not built yet. See the [roadmap](ROADMAP.md).
+
+## Assessment reform
+
+England is replacing end-point assessment with apprenticeship assessment. The change is being introduced standard by standard as Skills England publishes revised assessment plans, and the government expects the sector to remain in transition during 2026 and 2027 ([GOV.UK](https://www.gov.uk/government/publications/apprenticeship-funding-rules-2025-to-2026/changes-to-apprenticeship-assessment-2025-to-2026)). Standards whose plans have not been revised keep end-point assessment.
+
+ST0116 version 1.2 is an end-point assessment plan. When a revised plan for a standard is published, it is added here as a new version, so the change of assessment model can be compared with the version it replaces. Recording that change is planned for schema version 2; see the [roadmap](ROADMAP.md).
 
 ## Layout
 
