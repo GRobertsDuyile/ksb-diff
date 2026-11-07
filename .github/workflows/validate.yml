@@ -1,0 +1,21 @@
+name: Validate data
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Check every data file against the schema
+        run: node scripts/validate.js
+
+      - name: Test the validator
+        run: node --test
