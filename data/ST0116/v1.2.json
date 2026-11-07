@@ -431,77 +431,77 @@
       ]
     }
   ],
-    "gradingRules": {
-      "methodGrades": {
-        "M1": [
-          "Fail",
-          "Pass",
-          "Distinction"
-        ],
-        "M2": [
-          "Fail",
-          "Pass",
-          "Distinction"
-        ]
-      },
-      "methodCriteria": {
-        "M1": {
-          "fail": "Does not meet the pass criteria",
-          "pass": "All pass criteria are to be met to gain a pass",
-          "distinction": "All pass and distinction criteria are to be met to gain a distinction"
-        },
-        "M2": {
-          "fail": "Does not meet the pass criteria",
-          "pass": "All pass criteria are to be met to gain a pass",
-          "distinction": "All pass and distinction criteria are to be met to gain a distinction"
-        }
-      },
-      "overallGrades": [
+  "gradingRules": {
+    "methodGrades": {
+      "M1": [
         "Fail",
         "Pass",
-        "Merit",
         "Distinction"
       ],
-      "overallStatements": [
-        "All assessment methods are weighted equally in their contribution to the overall EPA grade.",
-        "All EPA methods must be passed for the EPA to be passed overall.",
-        "Grades from individual assessment methods should be combined in the following way to determine the grade of the EPA as a whole:"
-      ],
-      "overallTable": [
-        {
-          "M1": "Fail",
-          "M2": "Any grade",
-          "overall": "Fail"
-        },
-        {
-          "M1": "Any grade",
-          "M2": "Fail",
-          "overall": "Fail"
-        },
-        {
-          "M1": "Pass",
-          "M2": "Pass",
-          "overall": "Pass"
-        },
-        {
-          "M1": "Pass",
-          "M2": "Distinction",
-          "overall": "Merit"
-        },
-        {
-          "M1": "Distinction",
-          "M2": "Pass",
-          "overall": "Merit"
-        },
-        {
-          "M1": "Distinction",
-          "M2": "Distinction",
-          "overall": "Distinction"
-        }
-      ],
-      "resitStatements": [
-        "Re-sits and re-takes are not offered to apprentices wishing to move from pass to merit/distinction or merit to distinction.",
-        "Where any assessment method must be re-sat or re-taken, the apprentice will be awarded a maximum EPA grade of distinction."
+      "M2": [
+        "Fail",
+        "Pass",
+        "Distinction"
       ]
-    }
+    },
+    "methodCriteria": {
+      "M1": {
+        "fail": "Does not meet the pass criteria",
+        "pass": "All pass criteria are to be met to gain a pass",
+        "distinction": "All pass and distinction criteria are to be met to gain a distinction"
+      },
+      "M2": {
+        "fail": "Does not meet the pass criteria",
+        "pass": "All pass criteria are to be met to gain a pass",
+        "distinction": "All pass and distinction criteria are to be met to gain a distinction"
+      }
+    },
+    "overallGrades": [
+      "Fail",
+      "Pass",
+      "Merit",
+      "Distinction"
+    ],
+    "overallStatements": [
+      "All assessment methods are weighted equally in their contribution to the overall EPA grade.",
+      "All EPA methods must be passed for the EPA to be passed overall.",
+      "Grades from individual assessment methods should be combined in the following way to determine the grade of the EPA as a whole:"
+    ],
+    "overallTable": [
+      {
+        "M1": "Fail",
+        "M2": "Any grade",
+        "overall": "Fail"
+      },
+      {
+        "M1": "Any grade",
+        "M2": "Fail",
+        "overall": "Fail"
+      },
+      {
+        "M1": "Pass",
+        "M2": "Pass",
+        "overall": "Pass"
+      },
+      {
+        "M1": "Pass",
+        "M2": "Distinction",
+        "overall": "Merit"
+      },
+      {
+        "M1": "Distinction",
+        "M2": "Pass",
+        "overall": "Merit"
+      },
+      {
+        "M1": "Distinction",
+        "M2": "Distinction",
+        "overall": "Distinction"
+      }
+    ],
+    "resitStatements": [
+      "Re-sits and re-takes are not offered to apprentices wishing to move from pass to merit/distinction or merit to distinction.",
+      "Where any assessment method must be re-sat or re-taken, the apprentice will be awarded a maximum EPA grade of distinction."
+    ]
+  }
 }
