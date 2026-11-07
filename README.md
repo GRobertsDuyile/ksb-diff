@@ -1,5 +1,7 @@
 # KSB Diff
 
+[![Validate data](https://github.com/GRobertsDuyile/ksb-diff/actions/workflows/validate.yml/badge.svg)](https://github.com/GRobertsDuyile/ksb-diff/actions/workflows/validate.yml)
+
 KSB Diff keeps open, structured data for English apprenticeship standards and their assessment plans, one file per published version, so that anyone can see exactly what changed between versions.
 
 ## Why it exists
@@ -39,9 +41,24 @@ data/
     v1.2.json          one file per published version
 schema/
   standard.schema.json the structure every data file must follow
+scripts/
+  validate.js          checks every data file against the schema
+tests/
+  validate.test.js     tests for the validator
 ```
 
 Descriptor identifiers such as `M1-P01` (method 1, pass descriptor 1) are assigned by this repository so that each descriptor can be referred to. They do not appear in the published plans. An identifier only identifies a descriptor within one file: the same identifier in another version may refer to a different descriptor, so identifiers are never used to match descriptors across versions.
+
+## Checking the data
+
+Every push runs the validator and its tests with GitHub Actions. To run them yourself, install Node.js 22 or later; nothing else is needed.
+
+```
+node scripts/validate.js
+node --test
+```
+
+The validator checks each file against the schema, then checks what a schema cannot: that every KSB a descriptor lists exists and is assessed by that descriptor's method, that identifiers are unique and match their method and grade, and that the file's path matches its reference and version.
 
 ## Important limits
 
