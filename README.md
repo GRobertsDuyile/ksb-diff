@@ -19,7 +19,7 @@ Apprenticeship standards and their assessment plans are revised over time, and r
 |---|---|---|---|
 | ST0116 Software developer, Level 4 | 1.2 | [ST0116/v1.2](https://skillsengland.education.gov.uk/media/fwedv2h3/st0116-software-developer-level-4-ap-for-publication-17112025.pdf) | Yes, 7 November 2026 |
 
-Each file holds the standard's reference, title, level and versions; every KSB with its text; and every assessment method with its grading descriptors, the KSBs each descriptor covers, and the descriptor text.
+Each file holds the standard's reference, title, level and versions; every KSB with its text; every assessment method with its grading descriptors, the KSBs each descriptor covers, and the descriptor text; the grading rules for each method and for the overall grade, quoted from the plan; and links to the published standard and assessment plan it was checked against, with the date of the check.
 
 "Checked against source" means every KSB was compared with the published standard page, and every descriptor and mapping with the published assessment plan, character for character.
 
