@@ -5,10 +5,10 @@
     "title": "Software developer",
     "level": 4,
     "standardVersion": "1.2",
-    "assessmentPlanVersion": "ST0116/v1.2 (November 2025)",
+    "assessmentPlanVersion": "ST0116/v1.2",
     "publisher": "Skills England",
     "licence": "Open Government Licence v3.0",
-    "notes": "KSB and descriptor text is copied from the published standard and assessment plan. Descriptor identifiers (such as M1-P01) are assigned by this repository and do not appear in the plan."
+    "notes": "KSB text is copied from the published standard page for version 1.2. Descriptor text is copied from the published assessment plan ST0116/v1.2. Published text is kept exactly as written, including its spelling and punctuation. Descriptor identifiers (such as M1-P01) are assigned by this repository and do not appear in the plan. Observations, with the published text left unchanged: the plan's mapping section words several KSBs differently from the standard page, for example K7 reads \"reusable off-the-shelf solutions\" in the plan; and the plan states that it \"aligns with standard version 1.1\"."
   },
   "ksbs": {
     "K1": "all stages of the software development life-cycle (what each stage contains, including the inputs and outputs)",
@@ -54,7 +54,6 @@
     {
       "id": "M1",
       "name": "Work-based project with questioning",
-      "format": "Project report followed by 60 minutes of questioning, minimum 12 questions",
       "ksbs": [
         "K2",
         "K6",
@@ -153,7 +152,7 @@
           "ksbs": [
             "B2"
           ],
-          "text": "Establishes a logical thinking approach to areas of work which require valid reasoning and/or justified decision making (B2)"
+          "text": "Establishes a logical thinking approach to areas of work which require valid reasoning and/or justified decision making’ (B2)"
         },
         {
           "id": "M1-P11",
@@ -185,7 +184,7 @@
           "ksbs": [
             "S7"
           ],
-          "text": "Analyses the software to identify and debug complex issues using a fix that provides a permanent solution (S7)"
+          "text": "Analyses the software to identify and debug complex issues using a fix that provides a permanent solution’. (S7)"
         },
         {
           "id": "M1-D04",
@@ -200,7 +199,6 @@
     {
       "id": "M2",
       "name": "Professional discussion underpinned by portfolio",
-      "format": "60 minutes, minimum 12 open questions; portfolio not assessed",
       "ksbs": [
         "K1",
         "K3",
@@ -349,7 +347,7 @@
           "ksbs": [
             "B1"
           ],
-          "text": "Describes, how they have operated independently to complete tasks to given deadlines which reflect the level of responsibility assigned to them by the organisation. (B1)"
+          "text": "Describes, how they have operated independently to complete tasks to given deadlines which reflect the level of responsibility assigned to them by the organisation’. (B1)"
         },
         {
           "id": "M2-P16",
