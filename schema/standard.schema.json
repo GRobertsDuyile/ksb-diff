@@ -19,7 +19,17 @@
         "assessmentPlanVersion": { "type": "string", "minLength": 1 },
         "publisher": { "type": "string", "minLength": 1 },
         "licence": { "type": "string", "minLength": 1 },
-        "notes": { "type": "string" }
+        "notes": { "type": "string" },
+        "sourceUrl": {
+          "type": "object",
+          "required": ["standard", "assessmentPlan"],
+          "additionalProperties": false,
+          "properties": {
+            "standard": { "type": "string", "pattern": "^https://" },
+            "assessmentPlan": { "type": "string", "pattern": "^https://" }
+          }
+        },
+        "checkedAgainstSource": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" }
       }
     },
     "ksbs": {
@@ -54,6 +64,39 @@
             }
           }
         }
+      }
+    },
+    "gradingRules": {
+      "type": "object",
+      "required": ["methodGrades", "methodCriteria", "overallGrades", "overallStatements", "overallTable"],
+      "additionalProperties": false,
+      "properties": {
+        "methodGrades": {
+          "type": "object",
+          "propertyNames": { "pattern": "^M[0-9]+$" },
+          "additionalProperties": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+        },
+        "methodCriteria": {
+          "type": "object",
+          "propertyNames": { "pattern": "^M[0-9]+$" },
+          "additionalProperties": {
+            "type": "object",
+            "propertyNames": { "enum": ["fail", "pass", "merit", "distinction"] },
+            "additionalProperties": { "type": "string", "minLength": 1 }
+          }
+        },
+        "overallGrades": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "overallStatements": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "overallTable": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["overall"],
+            "propertyNames": { "pattern": "^(M[0-9]+|overall)$" },
+            "additionalProperties": { "type": "string", "minLength": 1 }
+          }
+        },
+        "resitStatements": { "type": "array", "items": { "type": "string", "minLength": 1 } }
       }
     }
   }
