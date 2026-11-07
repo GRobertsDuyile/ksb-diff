@@ -33,7 +33,7 @@ schema/
   standard.schema.json the structure every data file must follow
 ```
 
-Descriptor identifiers such as `M1-P01` (method 1, pass descriptor 1) are assigned by this repository to make comparison possible. They do not appear in the published plans.
+Descriptor identifiers such as `M1-P01` (method 1, pass descriptor 1) are assigned by this repository so that each descriptor can be referred to. They do not appear in the published plans. An identifier only identifies a descriptor within one file: the same identifier in another version may refer to a different descriptor, so identifiers are never used to match descriptors across versions.
 
 ## Important limits
 
