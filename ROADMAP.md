@@ -6,9 +6,9 @@ Work is listed in the order it will be done. Each step ends in its own commit.
 
 - **Done, 7 November 2026.** Confirmed on the Skills England page that the ST0116 v1.2 assessment plan is a pre-reform end-point assessment plan.
 - **Done, 7 November 2026.** Checked every KSB and descriptor in `data/ST0116/v1.2.json` against the published standard and assessment plan, word for word. Published text is kept exactly as written, including its spelling, grammar and punctuation. Where the published text appears to contain an error, the text is left unchanged and the observation goes in the file's `notes`.
-- Add three optional fields to schema version 1: `sourceUrl`, the published page each file was checked against; `checkedAgainstSource`, the date of the check; and `gradingRules`, quoted from the plan. Existing files stay valid.
-- Add the grading rules for each method and for the overall grade, quoted word for word from the plan.
-- Write a validation script with no dependencies. It checks only the schema keywords this repository uses (`type`, `required`, `enum`, `pattern`, `const`, `minLength`, `minItems`, `additionalProperties`), and confirms that each descriptor's KSBs exist and belong to its method. Run it on every push with GitHub Actions.
+- **Done, 7 November 2026.** Added three optional fields to schema version 1: `sourceUrl`, the published standard page and assessment plan each file was checked against; `checkedAgainstSource`, the date of the check; and `gradingRules`, quoted from the plan. Existing files stay valid.
+- **Done, 7 November 2026.** Added the grading rules for each method and for the overall grade, quoted word for word from the plan.
+- **Done, 7 November 2026.** Wrote a validation script with no dependencies. It implements only the schema keywords this repository uses (`type`, `required`, `properties`, `additionalProperties`, `propertyNames`, `items`, `const`, `enum`, `pattern`, `minLength`, `minItems`, `minimum`, `maximum`) and reports any other keyword as an error. It also confirms that each descriptor's KSBs exist and belong to its method, that identifiers are unique and match their method and grade, and that each file's path matches its reference and version. It runs with its tests on every push with GitHub Actions.
 
 ## 2. Schema version 2 for the assessment reform
 
